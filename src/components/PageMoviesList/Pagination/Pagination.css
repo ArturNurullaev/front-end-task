@@ -1,0 +1,110 @@
+.pagination {
+	display:flex;
+	justify-content:space-between;
+}
+
+
+
+.pagination-number:link{
+	background-color:white;
+	font-size:1rem;
+	text-decoration:none;
+	width:2rem;
+	height:2rem;
+	color:grey;
+	border:1px solid silver;
+	cursor:pointer;
+	transition:box-shadow .3s;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	letter-spacing:-1px;
+}
+
+
+
+.pagination-number:visited{
+	color:grey;
+	border:1px solid silver;
+}
+
+
+
+.pagination-number:hover{
+	box-shadow:5px 5px 9px silver;
+}
+
+
+
+.pagination-number:active{
+	text-decoration:none;
+	color:grey;
+}
+
+
+.pagination-currentNumber{
+	background-color:silver;
+	text-decoration:none;
+	width:2rem;
+	height:2rem;
+	border:1px solid silver;
+	cursor:pointer;
+	transition:box-shadow .3s;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	letter-spacing:-1px;
+}
+
+
+
+.pagination-currentNumber:visited{
+	text-decoration:none;
+	color:grey;
+}
+
+
+
+.pagination-left{
+	background-color:white;
+	font-size:1rem;
+	text-decoration:none;
+	width:1.6rem;
+	height:1.6rem;
+	color:silver;
+	border-left:2px solid silver;
+	border-bottom:2px solid silver;
+	align-self:center;
+	cursor:pointer;
+	transition:box-shadow .3s;
+	transform: rotate(45deg);
+}
+
+
+
+.pagination-left:hover{
+	box-shadow:-6px 6px 9px silver;
+}
+
+
+
+.pagination-right{
+	background-color:white;
+	font-size:1rem;
+	text-decoration:none;
+	width:1.6rem;
+	height:1.6rem;
+	color:silver;
+	border-right:2px solid silver;
+	border-top:2px solid silver;
+	align-self:center;
+	cursor:pointer;
+	transition:box-shadow .3s;
+	transform: rotate(45deg);
+}
+
+
+
+.pagination-right:hover{
+	box-shadow:6px -6px 9px silver;
+}

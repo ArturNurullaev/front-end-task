@@ -1,0 +1,50 @@
+
+.pageMovieDetails{
+	
+	text-align:center;
+	
+}
+
+
+
+.pageMovieDetails-state {
+	padding:35%;
+}
+
+
+
+
+
+
+
+
+
+.movieDetails {
+	border:1px solid silver;
+	padding:1rem;
+	display:flex;
+	flex-direction:row;
+	align-items:flex-start;
+	box-shadow:5px 5px 5px silver;
+	text-align:left;
+}
+
+
+
+.movieDetails-title {
+	font-size:2rem;
+	margin:1rem 0 1rem 0;
+	color:#081c24;
+}
+
+
+
+.movieDetails-image {
+	width:50%;
+	height:auto;
+	margin-right:2rem;
+}
+
+.movieDetails-description > b {
+	color:#081c24;
+}

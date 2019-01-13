@@ -1,0 +1,24 @@
+
+
+
+.navigation-left {
+	
+	position:absolute;
+	left:0px;
+	background-color:white;
+	box-shadow:-8px -8px 10px silver;
+	width:60px;
+	height:60px;
+	transform:rotate(-45deg);
+	transition:box-shadow .3s;
+	cursor:pointer;
+	display:flex;
+
+}
+
+.navigation-left:hover {	box-shadow:-12px -12px 23px silver; }
+
+
+
+
+.navigation-leftNumber {margin:auto; transform:rotate(45deg)}
