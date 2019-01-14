@@ -1,14 +1,8 @@
-.searchPage{
-
-text-align:center;
-
+.searchPage {
+	text-align: center;
 }
 
-
-.searchPage-state{
-padding:35%;
-color:grey;
+.searchPage-state {
+	padding: 35%;
+	color: grey;
 }
-
-
-

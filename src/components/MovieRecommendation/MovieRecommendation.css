@@ -1,43 +1,33 @@
-.movieRecommendation{
-	text-align:center;
+.movieRecommendation {
+	text-align: center;
 }
 
-.movieRecommendation-list{
-	display:flex;
-	flex-direction:row;
-	flex-wrap:wrap;
-
+.movieRecommendation-list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-
-.movieRecommendation-title{
-	font-size:1.4rem;
-	color:#081c24;
+.movieRecommendation-title {
+	font-size: 1.1rem;
+	color: #081c24;
 }
-
 
 .movieRecommendation-item {
-	width:12%;
-	margin:.5rem;
-	padding:0;
-	cursor:pointer;
-	box-shadow:5px 5px 5px silver;
-
+	width: 12%;
+	margin: .5rem;
+	padding: 0;
+	cursor: pointer;
+	box-shadow: 5px 5px 5px silver;
 }
 
 .movieRecommendation-itemImage {
-	display:block;
-	width:100%;
-	height:auto;
-	transition:transform .3s;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: transform .3s;
 }
 
 .movieRecommendation-itemImage:hover {
-	transform:scale(2.5);
+	transform: scale(2.5);
 }
-
-
-
-
-
-

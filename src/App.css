@@ -1,52 +1,41 @@
-.App{}
-
-
-
-.App-background{
-	position:absolute;
-	top:0;
-	height:260px;
-	width:100vw;
-	min-height:250px;
-	background-color:#081c24;
-	z-index:-1;
+.App {
 }
 
-
+.App-background {
+	position: absolute;
+	top: 0;
+	height: 260px;
+	width: 100vw;
+	min-height: 250px;
+	background-color: #081c24;
+	z-index: -1;
+}
 
 .App-header {
-	width:45vw;
-	min-width:800px;
-	height:12vh;
-	margin:0 auto;
-	border-top:solid 5px #04d178;
-	min-height:120px;
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
+	width: 45vw;
+	min-width: 800px;
+	height: 12vh;
+	margin: 0 auto;
+	border-top: solid 8px #04d178;
+	min-height: 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
-
-
 
 .App-logo {
-	height:70%;
-	margin-left:3.5%;
+	height: 70%;
+	margin-left: 3.5%;
 }
 
-
-
-
-.App-body{
-	position:relative;
-	width:45vw;
-	min-width:800px;
-	min-height:45vw;
-	margin:0 auto;
-	background-color:white;
-	padding:3rem;
-	box-shadow:0px 8rem 15rem silver;
-	margin-bottom:6vh;
+.App-body {
+	position: relative;
+	width: 45vw;
+	min-width: 800px;
+	min-height: 45vw;
+	margin: 0 auto;
+	background-color: white;
+	padding: 3rem;
+	box-shadow: 0px 8rem 15rem silver;
+	margin-bottom: 6vh;
 }
-
-
-

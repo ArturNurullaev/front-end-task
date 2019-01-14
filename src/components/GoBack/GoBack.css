@@ -1,20 +1,17 @@
-.goBack{
-width:2rem;
-height:2rem;
-border:1px solid grey;
-border-right:0;
-border-bottom:0;
-cursor:pointer;
-position:absolute;
-top:3.5rem;
-left:-3rem;
-transform:rotate(-45deg);
-transition: transform .3s;
-	
+.goBack {
+	width: 2rem;
+	height: 2rem;
+	border: 1px solid grey;
+	border-right: 0;
+	border-bottom: 0;
+	cursor: pointer;
+	position: absolute;
+	top: 3.5rem;
+	left: -3rem;
+	transform: rotate(-45deg);
+	transition: transform .3s;
 }
 
 .goBack:hover {
-
-	transform: rotate(-45deg) scale(1.4)
-	
+	transform: rotate(-45deg) scale(1.4);
 }
